@@ -4,7 +4,7 @@ Congratulations on deciding to learn JavaScript. My job is to get you acquainted
 
 Before we can dig in, we'll need to talk a little bit about some of the tools we'll be using to learn.
 
-Throughout our time together, we’ll be using a library called [p5.js], which makes it easy to draw to this thing called a [canvas]. Canvas—like the real world thing it's named after—is something our web browser gives us to draw on if we need it. p5.js based off a project called [Processing], which you can think of a visual sketchbook for people who are into making art with code as well as for people like you who are just learning how to code for the very first (or second) time. p5.js will allow us to visually see the fruits of our labor as we go along.
+Throughout our time together, we’ll be using a library called [p5.js], which makes it easy to draw to this thing called a [canvas]. Canvas—like the real world thing it's named after—is something our web browser gives us to draw on if we need it. p5.js is based off a project called [Processing], which you can think of a visual sketchbook for people who are into making art with code as well as for people like you who are just learning how to code for the very first (or second) time. p5.js will allow us to visually see the fruits of our labor as we go along.
 
 [p5.js]: https://p5js.org "p5.js"
 [canvas]: http://diveinto.html5doctor.com/canvas.html "Dive Into HTM5 - Canvas"
@@ -164,7 +164,7 @@ function draw() {
 }
 ```
 
-Now, instead of dropping past the bottom of the canvas, it will sit there peacefully. `y` will no longer be incremented as so as `y` plus the height of the block is greater than the height of the canvas itself.
+Now, instead of dropping past the bottom of the canvas, it will sit there peacefully. `y` will no longer be incremented as `y` plus the height of the block is greater than the height of the canvas itself.
 
 <p class="your-turn">
   **Your Turn!** We've been incrementing `y`, but could you increment `x` as well? Have it stop moving as soon as it hits the right edge of the canvas.
@@ -263,7 +263,7 @@ If you look up at the previous example, there is a lot of repetition. We've `y =
 
 If you're lucky enough to have someone who's been programming for a bit near you, then he or she probably has some strong ideas about some ways we could improve that code. Just let them know that I'm aware of those things as well and we will talk about them in a bit, but first we're going to talk a little bit about using functions to keep our code DRY.
 
-If variables are good at storing values for you to use multiple places in your program, then functions are going at storing a set of steps that you'd like to repeat multiple places in your code. Let's take a look at the syntax for writing a function.
+If variables are good at storing values for you to use multiple places in your program, then functions are good at storing a set of steps that you'd like to repeat multiple places in your code. Let's take a look at the syntax for writing a function.
 
 ```js
 function yourAwesomeFunctionNameGoesHere(firstArgument, secondArgument, …) {
