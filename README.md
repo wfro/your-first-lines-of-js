@@ -7,7 +7,7 @@ Before we can dig in, we'll need to talk a little bit about some of the tools we
 Throughout our time together, we’ll be using a library called [p5.js], which makes it easy to draw to this thing called a [canvas]. Canvas—like the real world thing it's named after—is something our web browser gives us to draw on if we need it. p5.js is based off a project called [Processing], which you can think of a visual sketchbook for people who are into making art with code as well as for people like you who are just learning how to code for the very first (or second) time. p5.js will allow us to visually see the fruits of our labor as we go along.
 
 [p5.js]: https://p5js.org "p5.js"
-[canvas]: http://diveinto.html5doctor.com/canvas.html "Dive Into HTM5 - Canvas"
+[canvas]: http://diveinto.html5doctor.com/canvas.html "Dive Into HTML5 - Canvas"
 [Processing]: http://processing.org "Processing"
 
 In p5.js, we define two important functions `setup()` and `draw()`. Don't worry about what a function is right now. Later on, we’ll talk a bit more about what a function is, but for now, let’s just take a look at the syntax.
